@@ -1,0 +1,101 @@
+<div class="dashboard-page">
+  <h2> Dashboard </h2>
+
+  <section class="boards">
+    <div class="box" id="box-posted-jobs">
+      <h3> Posted Jobs </h3>
+      <p> - </p>
+    </div>
+
+    <div class="box" id="box-applicants">
+      <h3> Total Applicants </h3>
+      <p> - </p>
+    </div>
+  </section>
+
+  <div class="postings">
+    <nav>
+      <ul>
+        <li class="active">
+          <a href="javascript:void(0)" data-submenu="active-jobs">
+            Posted Jobs
+          </a>
+        </li>
+
+        <!-- <li>
+          <a href="javascript:void(0)" data-submenu="completed-jobs">
+            Payable
+          </a>
+        </li>
+
+        <li>
+          <a href="javascript:void(0)" data-submenu="job-posted-history">
+            History
+          </a>
+        </li> -->
+      </ul>
+    </nav>
+
+    <div class="page-contents">
+      <section class="recent-job-posting-content">
+
+        <aside>
+          <section class="recent">
+            <!-- <h3> Recent Job(s)</h3> -->
+          </section>
+        </aside>
+
+
+        <section class="content">
+          <h3 id="jpCompanyName"></h3>
+
+          <div class="job-details">
+            <div>
+              <p> Position: <span id="jpTitle"></span> </p>
+              <p> $<span id="jpWageRate"></span> / hr</p>
+            </div>
+
+            <div>
+              <p> Applied Candidates: <span id="jpTotalApplicants"></span> </p>
+              <p> Position Available: <span id="jpPositionAvailableLeft"></span> / <span
+                  id="jpPositionAvailable"></span>
+              </p>
+            </div>
+          </div>
+
+          <div class="applicants"></div>
+        </section>
+      </section>
+
+      <section class="completed hidden">
+        <aside>
+          Aside here
+        </aside>
+
+
+        <section class="content">
+          completed
+        </section>
+      </section>
+
+      <section class="history hidden">
+        <aside>
+          Aside here
+        </aside>
+
+
+        <section class="content">
+          Content history
+        </section>
+      </section>
+    </div>
+
+  </div>
+
+  <aside class="floating-icon">
+    <a href="/post" data-link>
+      +
+      <span class="visually-hidden">Post a Job</span>
+    </a>
+  </aside>
+</div>
